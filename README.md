@@ -18,7 +18,7 @@ The application processes raw chat data, performs text analysis, and presents th
 
 ### Chat Statistics
 
-![Statistics](screenshots/chatanlysis.png)
+![Statistics](screenshots/chatanlaysis.png)
 
 ### Analysis Dashboard
 
