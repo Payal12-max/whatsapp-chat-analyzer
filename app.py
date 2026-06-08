@@ -13,16 +13,24 @@ with col1:
  WhatsApp Insights
 </h1>
 
-<p style='font-size:22px;color:#444;'>
+<p style='font-size:22px;color:white;'>
 Transform thousands of messages into beautiful analytics,
 interactive visualizations, and actionable insights.
 </p>
 """, unsafe_allow_html=True)
-
+st.markdown("""
+<style>
+[data-testid="stImage"] img {
+    border: 4px solid white;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+</style>
+""", unsafe_allow_html=True)
 with col2:
     st.image(
         "images/banner.png",
-        width=300
+        width=300,
     )
 
 # ================= PAGE CONFIG =================
